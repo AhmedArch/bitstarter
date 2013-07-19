@@ -1,6 +1,6 @@
 var express = require('express');
 
-Bvar app = express.createServer(express.logger());
+var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
 
